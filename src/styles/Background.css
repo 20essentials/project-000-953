@@ -1,0 +1,16 @@
+.container {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #171717; /* equivalente a bg-neutral-900 */
+}
+
+.background-effect {
+  position: absolute;
+  inset: 0;
+  background-color: #f0abfc; /* equivalente a bg-fuchsia-400 */
+  background-size: 20px 20px;
+  opacity: 0.2;
+  filter: blur(100px);
+}
