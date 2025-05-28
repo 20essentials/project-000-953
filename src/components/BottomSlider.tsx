@@ -1,5 +1,4 @@
 import { arrayPlayers } from '@/data/players.tsx';
-
 export const BottomSlider = () => {
   return (
     <section className='bottom-slider'>
